@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node ./src/app.js --mode PRODUCTION",
+    "qa": "node ./src/app.js --mode PRODUCTION",
     "dev": "nodemon e- yaml,js ./src/app.js --mode DEVELOPMENT",
     "test": "mocha ./test/**/*.test.js"
   },
